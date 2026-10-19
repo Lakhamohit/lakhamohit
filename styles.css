@@ -246,3 +246,52 @@ ul {
         margin: 0 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   DARK MODE FIXES & ADDITIONS
+   ========================================== */
+
+/* 1. Header & Navigation Dark Mode Styles */
+body.dark-mode header {
+    background-color: #1f1f1f; /* Dark background for header */
+    color: #fff;
+    border-bottom: 2px solid #333;
+}
+
+body.dark-mode header nav a {
+    color: #fff; /* White text for navigation links */
+}
+
+body.dark-mode header nav a:hover {
+    color: #007aff; /* Keep hover accent */
+}
+
+/* 2. Fix Global Headings for Dark Mode */
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #fff; /* Ensures section titles are visible in dark mode */
+}
+
+/* 3. Corrected About Section Dark Mode Selector */
+body.dark-mode #about {
+    background-color: #1e1e1e; /* Dark background */
+    color: #fff; /* Light text */
+    border-bottom: 1px solid #444;
+}
+
+/* 4. Footer Dark Mode Styles */
+body.dark-mode footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    border-top: 1px solid #333;
+}
