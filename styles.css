@@ -23,8 +23,10 @@ body.dark-mode {
 
 /* Hero Section */
 .hero {
-    background: url('https://via.placeholder.com/1500x700') no-repeat center center;
+
+    background: url('my-custom-banner-1500x700.png') no-repeat center center;
     background-size: cover;
+    
     text-align: center;
     color: #fff; /* Default to white text for dark mode */
     padding: 100px 0;
